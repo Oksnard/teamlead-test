@@ -54,7 +54,7 @@ export default {
       const titles = ["день", "дня", "дней"];
       let postDate = new Date(this.post.date),
         today = new Date(Date.now()),
-        date = Math.ceil((today - postDate) / (1000 * 60 * 24) - 1);
+        date = Math.ceil((today - postDate) / 86400000 - 1);
       switch (date) {
         case -0:
           return "Сегодня";
@@ -113,6 +113,7 @@ export default {
     },
 
     dateFormatter(data) {
+      console.log(data.date);
       const formatterDate =
         data.titles[
           data.date % 10 == 1 && data.date % 100 != 11

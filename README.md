@@ -1,21 +1,26 @@
 # test-teamlead
 
-## Project setup
+## Установка зависимостей
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск JSON-SERVER
+```
+json-server --watch db.json
+```
+
+### Запуск приложения в режиме разработки
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Билд приложения в статику
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Запуск линтера, исправление ошибок код-стайла
 ```
 npm run lint
 ```
