@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "writer@mail.com",
+      "password": 123456,
+      "role": "writer"
+    },
+    {
+      "id": 2,
+      "login": "reader@mail.com",
+      "password": 123456,
+      "role": "reader"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Post title",
+      "description": "Post description",
+      "date": "2020-04-13T22:40:56.312Z",
+      "claps": 0,
+      "id": 1
+    },
+    {
+      "title": "Post title 2",
+      "description": "post description 2",
+      "date": "2020-04-13T22:42:06.768Z",
+      "claps": 0,
+      "id": 2
+    },
+    {
+      "title": "Post title 3",
+      "description": "post description 3",
+      "date": "2020-04-13T22:42:17.192Z",
+      "claps": 0,
+      "id": 3
+    },
+    {
+      "title": "Post title 4",
+      "description": "Post description 4",
+      "date": "2020-04-13T22:52:27.646Z",
+      "claps": 0,
+      "id": 4
+    },
+    {
+      "title": "Post title 5",
+      "description": "Post description 5",
+      "date": "2020-04-13T22:57:22.381Z",
+      "claps": 0,
+      "id": 5
+    },
+    {
+      "title": "Post title 6",
+      "description": "Post description 6",
+      "date": "2020-04-13T22:57:47.133Z",
+      "claps": 0,
+      "id": 6
+    },
+    {
+      "title": "Post title 7",
+      "description": "Post description 7",
+      "date": "2020-04-13T22:58:02.213Z",
+      "claps": 0,
+      "id": 7
+    },
+    {
+      "title": "Post title 8",
+      "description": "Post description 8",
+      "date": "2020-04-13T22:58:23.053Z",
+      "claps": 0,
+      "id": 8
+    },
+    {
+      "title": "Post title 9",
+      "description": "Post description 9",
+      "date": "2020-04-13T22:58:39.828Z",
+      "claps": 0,
+      "id": 9
+    },
+    {
+      "title": "Post title 10",
+      "description": "Post description 10",
+      "date": "2020-04-13T22:58:59.932Z",
+      "claps": 0,
+      "id": 10
+    },
+    {
+      "title": "Post title 11",
+      "description": "Post description 11",
+      "date": "2020-04-13T22:59:17.436Z",
+      "claps": 0,
+      "id": 11
+    }
+  ]
+}
